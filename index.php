@@ -19,27 +19,48 @@ get_header();
 ?>
 
 <div class="row " id="bodyContainerBuild">
-    <?php rewind_posts();?>    <!-- reiniciar variables del loop php -->
-      <?php query_posts('post_per_pages=10') ?>
-      <?php query_posts('order=Asc&cat=18') ?> <!-- categoria construccion -->
-      <?php 
-      $i = 0; 
-      if (have_posts()) : while ( have_posts() ) : the_post(); ?>
-      <?php if (  $i ==  0 ) { ?>
-          <div class="small-12 columns text-center align-bottom" id="buildTitle">
-            <h3><?php the_content() ?></h3>
+          <div class="small-12 columns text-center" id="buildTexto2" style="padding-top: 100px;">
+            <h3 id="titulo1"> NOS ESTAMOS PREPARANDO </h1>
           </div>
-         <?php } else {  ?>
+      
+          <div class="small-12 columns text-center" id="buildTexto3" style="padding-top: 10px;">
+               <h3 id="titulo2">PARA QUE DISFRUTES ESTE VERANO</h1>
+          </div>
+          
           <div class="small-12 columns text-center" id="buildTexto">
-            <h1> <?php the_content() ?> </h1>
+            <picture id="producto">
+            <img width="auto" height="auto" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/Producto.png, small], [<?php bloginfo('stylesheet_directory')?>/assets/Producto@2x.png, retina]">  
+          </picture>
           </div>
-          <?php } ?>
-      <?php
-      $i = $i +1;  
-      endwhile; ?>
-      <?php else : ?>
-            <?php get_template_part( 'template-parts/content', 'none' ); ?>
-      <?php endif; // End have_posts() check. ?>
+         
+          <div class="small-12 columns text-center" id="buildTexto" style="padding-top: 10px;">
+            <div class="row align-center" >
+              <h3 id="titulo3"> Sitio en construcción </h1>
+            </div>
+            
+          </div>
+          
+          <div class="small-12 columns text-center" id="buildMerck">
+            
+               
+                  <a href="https://www.facebook.com/Umbrella.fotoproteccion/"> 
+                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebook.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style=" height: 60px; width: 60px;margin-right: 10px; ">  
+                   </a>
+               
+               
+                  <a href="https://www.instagram.com/umbrella_fotoproteccion"> 
+                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/instagram.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style=" height: 60px; width: 60px;">
+                  </a>
+               
+      
+          </div>
+      
+          <div class="small-12 columns text-center" id="buildFooter">
+            <h3 id="titulo4">Umbrella Intelligent © Todos los derechos reservados</h1>
+          </div>
+
+
+          
 
 </div>
 
