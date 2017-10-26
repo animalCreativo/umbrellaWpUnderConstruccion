@@ -15,7 +15,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php bloginfo('name') ?></title>
+    <title>Umbrella Intelligent - Protección y reparación de la piel desde su ADN</title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
