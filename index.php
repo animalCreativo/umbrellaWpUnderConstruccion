@@ -56,9 +56,11 @@ get_header();
           </div>
       
           <div class="small-12 columns text-center" id="buildFooter">
-            <h3 id="titulo4">Umbrella Intelligent © Todos los derechos reservados</h1>
+            <h3 id="titulo4">Umbrella Intelligent © Todos los derechos reservados</h3>
           </div>
-
+           <div class="small-12 columns text-center" id="buildFooter">
+            <h3 id="titulo4"><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></h3>
+          </div>
 
           
 
