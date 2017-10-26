@@ -29,7 +29,7 @@ get_header();
           
           <div class="small-12 columns text-center" id="buildTexto">
             <picture id="producto">
-            <img width="auto" height="auto" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/Producto.png, small], [<?php bloginfo('stylesheet_directory')?>/assets/Producto@2x.png, retina]">  
+            <img width="auto" height="auto" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/img.png, small], [<?php bloginfo('stylesheet_directory')?>/assets/img@2x.png, retina]">  
           </picture>
           </div>
          
@@ -59,7 +59,7 @@ get_header();
             <h3 id="titulo4">Umbrella Intelligent © Todos los derechos reservados</h3>
           </div>
            <div class="small-12 columns text-center" id="buildFooter">
-            <h3 id="titulo4"><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></h3>
+            <h3 id="titulo4"><a href="mailto:elizabeth.berrios@animalcreativo.cl" style="color: #0076E8">Contáctate con nosotros <img src="<?php bloginfo('stylesheet_directory')?>/assets/mail.svg"  style=" height: 22px; width: 16px;"> </a></h3>
           </div>
 
           
