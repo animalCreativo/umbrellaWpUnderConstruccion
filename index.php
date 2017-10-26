@@ -49,7 +49,7 @@ get_header();
                
                
                   <a href="https://www.instagram.com/umbrella_fotoproteccion"> 
-                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/instagram.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style=" height: 60px; width: 60px;">
+                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/Instagram.svg" class="attachment-full size-full wp-post-image" alt="www.instagram.com" style=" height: 60px; width: 60px;">
                   </a>
                
       
